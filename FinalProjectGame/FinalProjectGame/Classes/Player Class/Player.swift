@@ -24,12 +24,12 @@ class Player: SKSpriteNode {
     func initializePlayer() {
         name = "Player";
         
-        for i in 1...6 {
+        for i in 1...3 {
             let name = "Player \(i)";
             playerAnimation.append(SKTexture(imageNamed: name));
         }
         
-        animatePlayerAction = SKAction.animate(with: playerAnimation, timePerFrame: 0.08, resize: true, restore: false);
+        animatePlayerAction = SKAction.animate(with: playerAnimation, timePerFrame: 0.5, resize: true, restore: false);
         self.run(SKAction.repeatForever(animatePlayerAction));
         
         physicsBody = SKPhysicsBody(rectangleOf: CGSize(width: self.size.width, height: self.size.height));

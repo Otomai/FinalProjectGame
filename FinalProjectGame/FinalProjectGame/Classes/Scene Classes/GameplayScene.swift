@@ -7,6 +7,7 @@
 //
 
 import SpriteKit
+import GameplayKit
 
 class GameplayScene: SKScene, SKPhysicsContactDelegate {
     
@@ -31,6 +32,7 @@ class GameplayScene: SKScene, SKPhysicsContactDelegate {
     
     private var itemController = ItemController();
     
+    
     override func didMove(to view: SKView) {
         initializeGame();
     }
@@ -41,6 +43,7 @@ class GameplayScene: SKScene, SKPhysicsContactDelegate {
     manageBGsandGrounds();
         player?.move();
         moveEnemy();
+
     }
     
     
@@ -62,11 +65,30 @@ class GameplayScene: SKScene, SKPhysicsContactDelegate {
         }
         
         if firstBody.node?.name == "Player" && secondBody.node?.name == "cd2" {
+            
+            if let particles = SKEmitterNode(fileNamed: "fire") {
+                particles.position = firstBody.node!.position
+                addChild(particles)
+            }
+            
+            var pickupSound: SKAction {
+                return SKAction.playSoundFileNamed("explosionsfx.mp3", waitForCompletion: false)
+            }
             score += 1;
             scoreLabel?.text = String(score);
             secondBody.node?.removeFromParent();
         }
+        
         if firstBody.node?.name == "Player" && secondBody.node?.name == "poop" {
+            
+            let explosion = SKEmitterNode(fileNamed: "Spark")!
+            explosion.position = secondBody.node!.position
+            self.addChild(explosion)
+            
+            var enemyExplosionSound: SKAction {
+                return SKAction.playSoundFileNamed("explosionsfx.mp3", waitForCompletion: false)
+            }
+            
             firstBody.node?.removeFromParent();
             secondBody.node?.removeFromParent()
             
@@ -141,8 +163,13 @@ class GameplayScene: SKScene, SKPhysicsContactDelegate {
         
 
     }
+    
+     func reverseGravity(){
         
-    private func reverseGravity(){
+        var soundTest: SKAction {
+            return SKAction.playSoundFileNamed("lasersound.mp3", waitForCompletion: false)
+        }
+        
         //Everytime the screen is touched gravity (9.8) is reversed due to * it by -1
         physicsWorld.gravity.dy *= -1;
         player?.reversePlayer();
@@ -153,7 +180,7 @@ class GameplayScene: SKScene, SKPhysicsContactDelegate {
     }
     
     @objc func restartGame(){
-        if let scene = GameplayScene(fileNamed: "GameplayScene") {
+        if let scene = EndMenu(fileNamed: "EndMenu") {
             // Set the scale mode to scale to fit the window
             scene.scaleMode = .aspectFill
             
@@ -181,4 +208,7 @@ class GameplayScene: SKScene, SKPhysicsContactDelegate {
         }
     }
     
+    
+
+
 }

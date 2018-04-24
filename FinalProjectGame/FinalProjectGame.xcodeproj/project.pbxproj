@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB2934EC208F35090006BCB7 /* humber8bit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CB2934EB208F35080006BCB7 /* humber8bit.mp3 */; };
+		CB2934EE208F3F300006BCB7 /* MainMenu.sks in Resources */ = {isa = PBXBuildFile; fileRef = CB2934ED208F3F300006BCB7 /* MainMenu.sks */; };
+		CB2934F0208F3F710006BCB7 /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2934EF208F3F710006BCB7 /* MainMenuScene.swift */; };
 		CB4BE311208EF896009A4462 /* ItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4BE310208EF896009A4462 /* ItemController.swift */; };
 		CB4BE318208F24C9009A4462 /* Player 3.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4BE312208F24C8009A4462 /* Player 3.png */; };
 		CB4BE319208F24C9009A4462 /* Player 1.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4BE313208F24C8009A4462 /* Player 1.png */; };
 		CB4BE31A208F24C9009A4462 /* Player 2.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4BE314208F24C8009A4462 /* Player 2.png */; };
-		CB4BE31B208F24C9009A4462 /* Player 4.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4BE315208F24C9009A4462 /* Player 4.png */; };
-		CB4BE31C208F24C9009A4462 /* Player 5.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4BE316208F24C9009A4462 /* Player 5.png */; };
-		CB4BE31D208F24C9009A4462 /* Player 6.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4BE317208F24C9009A4462 /* Player 6.png */; };
+		CBCD7844208F55F700C18E6E /* fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = CBCD7842208F55F700C18E6E /* fire.sks */; };
+		CBCD7845208F55F700C18E6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBCD7843208F55F700C18E6E /* Assets.xcassets */; };
+		CBCD7849208F57E100C18E6E /* Spark.sks in Resources */ = {isa = PBXBuildFile; fileRef = CBCD7848208F57E100C18E6E /* Spark.sks */; };
+		CBCD784B208F587100C18E6E /* EndMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCD784A208F587100C18E6E /* EndMenu.swift */; };
+		CBCD784D208F589200C18E6E /* EndMenu.sks in Resources */ = {isa = PBXBuildFile; fileRef = CBCD784C208F589200C18E6E /* EndMenu.sks */; };
 		CBD3A929208EDEDB004AB748 /* GroundClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD3A928208EDEDB004AB748 /* GroundClass.swift */; };
 		CBD3A92E208EE4E4004AB748 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD3A92D208EE4E4004AB748 /* Player.swift */; };
 		CBD67A2E208E945A00144B19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD67A2D208E945A00144B19 /* AppDelegate.swift */; };
@@ -27,13 +32,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB2934EB208F35080006BCB7 /* humber8bit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = humber8bit.mp3; sourceTree = "<group>"; };
+		CB2934ED208F3F300006BCB7 /* MainMenu.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenu.sks; sourceTree = "<group>"; };
+		CB2934EF208F3F710006BCB7 /* MainMenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
 		CB4BE310208EF896009A4462 /* ItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemController.swift; sourceTree = "<group>"; };
 		CB4BE312208F24C8009A4462 /* Player 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 3.png"; sourceTree = "<group>"; };
 		CB4BE313208F24C8009A4462 /* Player 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 1.png"; sourceTree = "<group>"; };
 		CB4BE314208F24C8009A4462 /* Player 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 2.png"; sourceTree = "<group>"; };
-		CB4BE315208F24C9009A4462 /* Player 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 4.png"; sourceTree = "<group>"; };
-		CB4BE316208F24C9009A4462 /* Player 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 5.png"; sourceTree = "<group>"; };
-		CB4BE317208F24C9009A4462 /* Player 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 6.png"; sourceTree = "<group>"; };
+		CBCD7842208F55F700C18E6E /* fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = fire.sks; sourceTree = "<group>"; };
+		CBCD7843208F55F700C18E6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBCD7848208F57E100C18E6E /* Spark.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Spark.sks; sourceTree = "<group>"; };
+		CBCD784A208F587100C18E6E /* EndMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndMenu.swift; sourceTree = "<group>"; };
+		CBCD784C208F589200C18E6E /* EndMenu.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EndMenu.sks; sourceTree = "<group>"; };
 		CBD3A928208EDEDB004AB748 /* GroundClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroundClass.swift; sourceTree = "<group>"; };
 		CBD3A92D208EE4E4004AB748 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		CBD67A2A208E945A00144B19 /* FinalProjectGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProjectGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,12 +69,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CB2934EA208F34D70006BCB7 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				CB2934EB208F35080006BCB7 /* humber8bit.mp3 */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
 		CB4BE30F208EF878009A4462 /* Item Controller */ = {
 			isa = PBXGroup;
 			children = (
 				CB4BE310208EF896009A4462 /* ItemController.swift */,
 			);
 			path = "Item Controller";
+			sourceTree = "<group>";
+		};
+		CBCD7841208F55CA00C18E6E /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				CBCD7842208F55F700C18E6E /* fire.sks */,
+				CBCD7843208F55F700C18E6E /* Assets.xcassets */,
+				CBCD7848208F57E100C18E6E /* Spark.sks */,
+			);
+			path = Particles;
 			sourceTree = "<group>";
 		};
 		CBD3A92A208EE4B4004AB748 /* Player Class */ = {
@@ -78,6 +106,7 @@
 		CBD67A21208E945A00144B19 = {
 			isa = PBXGroup;
 			children = (
+				CB2934EA208F34D70006BCB7 /* Music */,
 				CBD67A2C208E945A00144B19 /* FinalProjectGame */,
 				CBD67A2B208E945A00144B19 /* Products */,
 			);
@@ -94,6 +123,7 @@
 		CBD67A2C208E945A00144B19 /* FinalProjectGame */ = {
 			isa = PBXGroup;
 			children = (
+				CBCD7841208F55CA00C18E6E /* Particles */,
 				CB4BE30F208EF878009A4462 /* Item Controller */,
 				CBD67A45208EBD6600144B19 /* Player */,
 				CBD67A5F208EBE3A00144B19 /* Classes */,
@@ -114,9 +144,6 @@
 				CB4BE313208F24C8009A4462 /* Player 1.png */,
 				CB4BE314208F24C8009A4462 /* Player 2.png */,
 				CB4BE312208F24C8009A4462 /* Player 3.png */,
-				CB4BE315208F24C9009A4462 /* Player 4.png */,
-				CB4BE316208F24C9009A4462 /* Player 5.png */,
-				CB4BE317208F24C9009A4462 /* Player 6.png */,
 			);
 			path = Player;
 			sourceTree = "<group>";
@@ -125,6 +152,8 @@
 			isa = PBXGroup;
 			children = (
 				CBD67A62208EC36900144B19 /* GameplayScene.sks */,
+				CB2934ED208F3F300006BCB7 /* MainMenu.sks */,
+				CBCD784C208F589200C18E6E /* EndMenu.sks */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -142,7 +171,9 @@
 		CBD67A64208ED17E00144B19 /* Scene Classes */ = {
 			isa = PBXGroup;
 			children = (
+				CBCD784A208F587100C18E6E /* EndMenu.swift */,
 				CBD67A60208EBE5D00144B19 /* GameplayScene.swift */,
+				CB2934EF208F3F710006BCB7 /* MainMenuScene.swift */,
 			);
 			path = "Scene Classes";
 			sourceTree = "<group>";
@@ -215,16 +246,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB4BE31B208F24C9009A4462 /* Player 4.png in Resources */,
+				CBCD784D208F589200C18E6E /* EndMenu.sks in Resources */,
+				CB2934EC208F35090006BCB7 /* humber8bit.mp3 in Resources */,
+				CB2934EE208F3F300006BCB7 /* MainMenu.sks in Resources */,
+				CBCD7845208F55F700C18E6E /* Assets.xcassets in Resources */,
 				CBD67A39208E945A00144B19 /* Main.storyboard in Resources */,
-				CB4BE31D208F24C9009A4462 /* Player 6.png in Resources */,
 				CBD67A3B208E945A00144B19 /* Assets.xcassets in Resources */,
+				CBCD7849208F57E100C18E6E /* Spark.sks in Resources */,
 				CB4BE31A208F24C9009A4462 /* Player 2.png in Resources */,
 				CB4BE318208F24C9009A4462 /* Player 3.png in Resources */,
 				CBD67A63208EC36900144B19 /* GameplayScene.sks in Resources */,
+				CBCD7844208F55F700C18E6E /* fire.sks in Resources */,
 				CBD67A3E208E945A00144B19 /* LaunchScreen.storyboard in Resources */,
 				CB4BE319208F24C9009A4462 /* Player 1.png in Resources */,
-				CB4BE31C208F24C9009A4462 /* Player 5.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +275,8 @@
 				CBD67A2E208E945A00144B19 /* AppDelegate.swift in Sources */,
 				CBD3A929208EDEDB004AB748 /* GroundClass.swift in Sources */,
 				CBD3A92E208EE4E4004AB748 /* Player.swift in Sources */,
+				CB2934F0208F3F710006BCB7 /* MainMenuScene.swift in Sources */,
+				CBCD784B208F587100C18E6E /* EndMenu.swift in Sources */,
 				CBD67A67208ED1BE00144B19 /* BGClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
