@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CB4BE309208EF11C009A4462 /* Player 3.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4BE303208EF11C009A4462 /* Player 3.png */; };
-		CB4BE30A208EF11C009A4462 /* Player 1.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4BE304208EF11C009A4462 /* Player 1.png */; };
-		CB4BE30B208EF11C009A4462 /* Player 2.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4BE305208EF11C009A4462 /* Player 2.png */; };
-		CB4BE30C208EF11C009A4462 /* Player 4.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4BE306208EF11C009A4462 /* Player 4.png */; };
-		CB4BE30D208EF11C009A4462 /* Player 5.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4BE307208EF11C009A4462 /* Player 5.png */; };
-		CB4BE30E208EF11C009A4462 /* Player 6.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4BE308208EF11C009A4462 /* Player 6.png */; };
 		CB4BE311208EF896009A4462 /* ItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4BE310208EF896009A4462 /* ItemController.swift */; };
+		CB4BE318208F24C9009A4462 /* Player 3.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4BE312208F24C8009A4462 /* Player 3.png */; };
+		CB4BE319208F24C9009A4462 /* Player 1.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4BE313208F24C8009A4462 /* Player 1.png */; };
+		CB4BE31A208F24C9009A4462 /* Player 2.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4BE314208F24C8009A4462 /* Player 2.png */; };
+		CB4BE31B208F24C9009A4462 /* Player 4.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4BE315208F24C9009A4462 /* Player 4.png */; };
+		CB4BE31C208F24C9009A4462 /* Player 5.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4BE316208F24C9009A4462 /* Player 5.png */; };
+		CB4BE31D208F24C9009A4462 /* Player 6.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4BE317208F24C9009A4462 /* Player 6.png */; };
 		CBD3A929208EDEDB004AB748 /* GroundClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD3A928208EDEDB004AB748 /* GroundClass.swift */; };
 		CBD3A92E208EE4E4004AB748 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD3A92D208EE4E4004AB748 /* Player.swift */; };
 		CBD67A2E208E945A00144B19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD67A2D208E945A00144B19 /* AppDelegate.swift */; };
@@ -27,13 +27,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CB4BE303208EF11C009A4462 /* Player 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 3.png"; sourceTree = "<group>"; };
-		CB4BE304208EF11C009A4462 /* Player 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 1.png"; sourceTree = "<group>"; };
-		CB4BE305208EF11C009A4462 /* Player 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 2.png"; sourceTree = "<group>"; };
-		CB4BE306208EF11C009A4462 /* Player 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 4.png"; sourceTree = "<group>"; };
-		CB4BE307208EF11C009A4462 /* Player 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 5.png"; sourceTree = "<group>"; };
-		CB4BE308208EF11C009A4462 /* Player 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 6.png"; sourceTree = "<group>"; };
 		CB4BE310208EF896009A4462 /* ItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemController.swift; sourceTree = "<group>"; };
+		CB4BE312208F24C8009A4462 /* Player 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 3.png"; sourceTree = "<group>"; };
+		CB4BE313208F24C8009A4462 /* Player 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 1.png"; sourceTree = "<group>"; };
+		CB4BE314208F24C8009A4462 /* Player 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 2.png"; sourceTree = "<group>"; };
+		CB4BE315208F24C9009A4462 /* Player 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 4.png"; sourceTree = "<group>"; };
+		CB4BE316208F24C9009A4462 /* Player 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 5.png"; sourceTree = "<group>"; };
+		CB4BE317208F24C9009A4462 /* Player 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 6.png"; sourceTree = "<group>"; };
 		CBD3A928208EDEDB004AB748 /* GroundClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroundClass.swift; sourceTree = "<group>"; };
 		CBD3A92D208EE4E4004AB748 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		CBD67A2A208E945A00144B19 /* FinalProjectGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProjectGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,12 +111,12 @@
 		CBD67A45208EBD6600144B19 /* Player */ = {
 			isa = PBXGroup;
 			children = (
-				CB4BE304208EF11C009A4462 /* Player 1.png */,
-				CB4BE305208EF11C009A4462 /* Player 2.png */,
-				CB4BE303208EF11C009A4462 /* Player 3.png */,
-				CB4BE306208EF11C009A4462 /* Player 4.png */,
-				CB4BE307208EF11C009A4462 /* Player 5.png */,
-				CB4BE308208EF11C009A4462 /* Player 6.png */,
+				CB4BE313208F24C8009A4462 /* Player 1.png */,
+				CB4BE314208F24C8009A4462 /* Player 2.png */,
+				CB4BE312208F24C8009A4462 /* Player 3.png */,
+				CB4BE315208F24C9009A4462 /* Player 4.png */,
+				CB4BE316208F24C9009A4462 /* Player 5.png */,
+				CB4BE317208F24C9009A4462 /* Player 6.png */,
 			);
 			path = Player;
 			sourceTree = "<group>";
@@ -215,16 +215,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB4BE30C208EF11C009A4462 /* Player 4.png in Resources */,
+				CB4BE31B208F24C9009A4462 /* Player 4.png in Resources */,
 				CBD67A39208E945A00144B19 /* Main.storyboard in Resources */,
-				CB4BE30E208EF11C009A4462 /* Player 6.png in Resources */,
+				CB4BE31D208F24C9009A4462 /* Player 6.png in Resources */,
 				CBD67A3B208E945A00144B19 /* Assets.xcassets in Resources */,
-				CB4BE30B208EF11C009A4462 /* Player 2.png in Resources */,
-				CB4BE309208EF11C009A4462 /* Player 3.png in Resources */,
+				CB4BE31A208F24C9009A4462 /* Player 2.png in Resources */,
+				CB4BE318208F24C9009A4462 /* Player 3.png in Resources */,
 				CBD67A63208EC36900144B19 /* GameplayScene.sks in Resources */,
 				CBD67A3E208E945A00144B19 /* LaunchScreen.storyboard in Resources */,
-				CB4BE30A208EF11C009A4462 /* Player 1.png in Resources */,
-				CB4BE30D208EF11C009A4462 /* Player 5.png in Resources */,
+				CB4BE319208F24C9009A4462 /* Player 1.png in Resources */,
+				CB4BE31C208F24C9009A4462 /* Player 5.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

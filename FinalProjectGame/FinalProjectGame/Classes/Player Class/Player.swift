@@ -24,7 +24,7 @@ class Player: SKSpriteNode {
     func initializePlayer() {
         name = "Player";
         
-        for i in 1...5 {
+        for i in 1...6 {
             let name = "Player \(i)";
             playerAnimation.append(SKTexture(imageNamed: name));
         }
