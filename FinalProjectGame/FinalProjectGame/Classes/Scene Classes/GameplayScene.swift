@@ -27,8 +27,10 @@ class GameplayScene: SKScene, SKPhysicsContactDelegate {
     
     private var maincamera : SKCameraNode?;
     
-    private var scoreLabel: SKLabelNode?;
-    private var score = 0;
+    public var scoreLabel: SKLabelNode?;
+    public var score = 0;
+    
+
     
     private var itemController = ItemController();
     
@@ -43,6 +45,7 @@ class GameplayScene: SKScene, SKPhysicsContactDelegate {
     manageBGsandGrounds();
         player?.move();
         moveEnemy();
+        
 
     }
     
@@ -75,8 +78,13 @@ class GameplayScene: SKScene, SKPhysicsContactDelegate {
                 return SKAction.playSoundFileNamed("explosionsfx.mp3", waitForCompletion: false)
             }
             score += 1;
+            
+        
             scoreLabel?.text = String(score);
+            
+       
             secondBody.node?.removeFromParent();
+
         }
         
         if firstBody.node?.name == "Player" && secondBody.node?.name == "poop" {
@@ -132,6 +140,7 @@ class GameplayScene: SKScene, SKPhysicsContactDelegate {
             player?.initializePlayer();
             
             scoreLabel = maincamera!.childNode(withName: "ScoreLabel") as? SKLabelNode!;
+            
             
             scoreLabel?.text = "0";
             

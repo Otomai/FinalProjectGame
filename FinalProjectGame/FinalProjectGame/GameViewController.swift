@@ -34,8 +34,6 @@ class GameViewController: UIViewController {
             //view.showsPhysics = true
         }
         
-        
-        
     }
 
     override var shouldAutorotate: Bool {
